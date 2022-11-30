@@ -93,6 +93,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <option value="Call_Put">Call & Put Option</option>
                 </select>    
             </div>
+
+            <div>
+                <label for="stock_price">Stock Price</label>
+            </div>
+            <div>
+                <input type="number" name="stock_price" id="stock_price">
+            </div>
+
+            <div>
+                <label for="strike_price">Strike Price</label>
+            </div>
+            <div>
+                <input type="number" name="strike_price" id="strike_price">
+            </div>
+
+            <div>
+                <label for="interest_rate">Interest Rate</label>
+            </div>
+            <div>
+                <input type="number" name="interest_rate" id="interest_rate" min=0 max=100 step="0.0001">
+            </div>
+
+            <div>
+                <label for="time_exp">Time of Expiration Date</label>
+            </div>
+            <div>
+                <input type="number" name="time_exp" id="time_exp" step="1">
+            </div>
             
             <!-- pembatas -->
 
