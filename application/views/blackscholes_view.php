@@ -79,8 +79,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Test Dila</h1>
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
+	<h1>Data Input</h1>
+    <form>
+        <div style="margin: 10px;">
+            <h3>
+                Stock Option Calculate
+            </h3>
+            <div>
+                <label for="opt_type">Option Type</label>
+                <select id="opt_type" name="opt_type">
+                    <option value="Call">Call Option</option>
+                    <option value="Put">Put Option</option>
+                    <option value="Call_Put">Call & Put Option</option>
+                </select>    
+            </div>
+            
+            <!-- pembatas -->
+
+        </div>
+    </form>
 </div>
 
 </body>
